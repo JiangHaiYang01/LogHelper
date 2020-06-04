@@ -6,6 +6,10 @@
 
 # Overview
 
+log 文件如下图所示
+
+![2020-06-04-15-06-10-1591254370](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-06-04-15-06-10-1591254370%20.png)
+
 # Download
 
 ## Step 1. Add the JitPack repository to your build file
