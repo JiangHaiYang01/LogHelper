@@ -8,7 +8,7 @@
 
 log 文件如下图所示
 
-![2020-06-04-15-06-10-1591254370](https://allens-blog.oss-cn-beijing.aliyuncs.com/uPic/2020-06-04-15-06-10-1591254370%20.png)
+![2020-06-04-15-06-10-1591254370](http://allens-blog.oss-cn-beijing.aliyuncs.com/allens-blog/f0h1y.png)
 
 # Download
 
@@ -63,6 +63,11 @@ LogHelper.d("hello %s", "world");
 ```
 
 这边是基于 Logger 开源项目进行二次封装。所以用法也和Logger 完全相同
+
+
+# 更新日志
+
+请查看 [博客](https://jianghaiyang01.github.io/posts/f4408143/#more)
 
 # License
 
