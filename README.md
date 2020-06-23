@@ -3,69 +3,7 @@
 基于Logger 的一个日志框架,动态设置最大文件数量。每个文件最大的大小。
 
 
-
-# Overview
-
-log 文件如下图所示
-
-![2020-06-04-15-06-10-1591254370](http://allens-blog.oss-cn-beijing.aliyuncs.com/allens-blog/f0h1y.png)
-
-# Download
-
-## Step 1. Add the JitPack repository to your build file
-
-Add it in your root build.gradle at the end of repositories:
-
-```
-allprojects {
-	repositories {
-		maven { url 'https://www.jitpack.io' }
-	}
-}
-```
-## Step 2. Add the dependency
-
-```
-dependencies {
-        implementation 'com.github.JiangHaiYang01:LogHelpe:0.0.1'
-}
-
-```
-
-# Usage
-
-## 初始化
-
-默认保存在 沙盒位置， 不需要任何权限。
-
-```
-LogHelper.init(this, true)
-```
-
-可自行设置文件大小，最大文件数量 以及文件所在位置，
-```
-LogHelper.init(this,"path",5,6,true)
-```
-
-
-## 记录日志到本地
-
-```
-LogHelper.i("记录日志")
-
-LogHelper.d("debug");
-LogHelper.e("error");
-LogHelper.w("warning");
-LogHelper.v("verbose");
-LogHelper.i("information");
-LogHelper.wtf("What a Terrible Failure");
-LogHelper.d("hello %s", "world");
-```
-
-这边是基于 Logger 开源项目进行二次封装。所以用法也和Logger 完全相同
-
-
-# 更新日志
+# 详细用法请查看博客
 
 请查看 [博客](https://jianghaiyang01.github.io/posts/f4408143/#more)
 
