@@ -31,7 +31,7 @@ allprojects {
 
 ```
 dependencies {
-        implementation 'com.github.JiangHaiYang01:LogHelpe:0.0.1'
+        implementation 'com.github.JiangHaiYang01:LogHelper:0.0.2'
 }
 
 ```
