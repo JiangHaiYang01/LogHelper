@@ -71,10 +71,7 @@ LogHelper.d("hello %s", "world");
 这边是基于 Logger 开源项目进行二次封装。所以用法也和Logger 完全相同
 
 
-# 源码
 
-[Github](https://github.com/JiangHaiYang01/LogHelper)
-[博客说明](https://allens.icu/posts/f4408143/#more)
 
 
 
